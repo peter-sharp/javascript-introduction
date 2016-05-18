@@ -9,4 +9,4 @@ A "hello world" program shows the basic syntax ( computer language grammar ) nee
 in javascript this is:
 ``` alert('Hello, world!'); ```
 
-'alert' is a javascript function ( we'll get to functions later ) that tells your webbrowser to display a popup widow with some text you give it in quotes.
+'alert' is a javascript function ( we'll get to functions later ) that tells your webbrowser to display a popup window with some text you give it in quotes.
