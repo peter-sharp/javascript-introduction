@@ -24,8 +24,9 @@ For example:``` alert( 3 * 4 ); ```
 **see what other math operations you can do**
 
 ###Strings
-Javascript and other computer programing languages store text as a sequence of characters called a string. Each position in a string has a number index *starting from zero* ( important to remember ).
+Javascript and other computer programing languages store text as a sequence of characters called a string. Each position in a string has a number index *starting from zero*, **important to remember**.
 
 So in 'Hello, world!', 'H' would be at zero. In fact, let's test that using the Javascript string function `indexOf` :
+
 `'Hello, world!'.indexOf('H');`
 
