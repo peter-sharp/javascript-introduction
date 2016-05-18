@@ -9,17 +9,20 @@ Javascript is a programming language commonly used in web browsers to add dynami
 ####Hello world
 A "hello world" program shows the basic syntax ( computer language grammar ) needed for a working computer program.
 in javascript this is:
+
 ``` alert( 'Hello, world!' ); ```
 
 'alert' is a javascript function ( we'll get to functions later ) that tells your web browser to display a popup window with some text you give it in quotes.
 
 ---
-##Javascript objects
+##Javascript data types
 
 ####Numbers
 Javascript can be used to do basic math operations with numbers.
 
-For example:``` alert( 3 * 4 ); ```
+For example:
+
+``` alert( 3 * 4 ); ```
 
 **see what other math operations you can do**
 
