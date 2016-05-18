@@ -6,7 +6,7 @@ Javascript is a programming language commonly used in web browsers to add dynami
 
 *For this next section we will be using the browser console press command (ctrl) + shift + j to show and hide it*
 
-###Hello world
+####Hello world
 A "hello world" program shows the basic syntax ( computer language grammar ) needed for a working computer program.
 in javascript this is:
 ``` alert( 'Hello, world!' ); ```
@@ -16,14 +16,14 @@ in javascript this is:
 ---
 ##Javascript objects
 
-###Numbers
+####Numbers
 Javascript can be used to do basic math operations with numbers.
 
 For example:``` alert( 3 * 4 ); ```
 
 **see what other math operations you can do**
 
-###Strings
+####Strings
 Javascript and other computer programing languages store text as a sequence of characters called a string. Each position in a string has a number index *starting from zero*, **important to remember**.
 
 So in 'Hello, world!', 'H' would be at zero. In fact, let's test that using the Javascript string function `indexOf` :
