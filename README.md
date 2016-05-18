@@ -1,12 +1,20 @@
 # javascript-introduction
-An introduction to Javascript for those who have been introduced to HTML, CSS (, and perhaps toyed with a bit of jQuery )
+*An introduction to Javascript for those who have been introduced to HTML, CSS (, and perhaps toyed with a bit of jQuery )*
 
 ---
-Javascript is a programming language commonly used in web browsers to add dynamic and interactive features to web pages. Ever wondered how the webpage knew you hadn't entered a correct email address before you submitted the form? Javascript. Form validation is just one example of javascript can do, you can create all sorts of [apps](http://todomvc.com/examples/vanillajs/) and games using the language.
+Javascript is a programming language commonly used in web browsers to add dynamic and interactive features to web pages. Ever wondered how the webpage knew you hadn't entered a correct email address before you submitted the form? Javascript. Form validation is just one example of javascript can do, you can create all sorts of [apps](http://todomvc.com/examples/vanillajs/) and [games](http://www.jsbreakouts.org/phaser/index.html) using the language.
+
+*For this next section we will be using the browser console press command (ctrl) + shift + j to show and hide it*
 
 ###Hello world
 A "hello world" program shows the basic syntax ( computer language grammar ) needed for a working computer program.
 in javascript this is:
-``` alert('Hello, world!'); ```
+``` alert( 'Hello, world!' ); ```
 
-'alert' is a javascript function ( we'll get to functions later ) that tells your webbrowser to display a popup window with some text you give it in quotes.
+'alert' is a javascript function ( we'll get to functions later ) that tells your web browser to display a popup window with some text you give it in quotes.
+
+
+###Numbers
+Javascript can be used to do basic math operations with numbers.
+``` alert( 3 * 4 ); ```
+**see what other math operations you can do**
