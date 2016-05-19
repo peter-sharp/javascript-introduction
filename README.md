@@ -43,3 +43,24 @@ Are similar to stings in that they are a sequence but you can store anything you
 a collection of named information and functions that represent a single entity.
 
 [1]: http://www.cs.utah.edu/~germain/PPS/Topics/data_types.html
+
+##Control structures
+####if statements
+take a true or truthy values {} 
+> greater than < less than === equal to
+
+####for loops
+```
+for(var i = 0; i < 100; i++){}
+```
+
+```
+var nav_items = document.querySelectorAll('.reponav-item');
+```
+
+```
+for( var i = 0; i < nav_items.length; i++){
+ var nav_item = nav_items[i];
+console.log( nav_item.innerHTML );
+}
+```
