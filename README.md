@@ -42,4 +42,4 @@ Are similar to stings in that they are a sequence but you can store anything you
 ###Objects
 a collection of named information and functions that represent a single entity.
 
-[1]: http://www.cs.utah.edu/~germain/PPS/Topics/data_types.html ""
+[1]: http://www.cs.utah.edu/~germain/PPS/Topics/data_types.html
