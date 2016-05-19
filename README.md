@@ -15,7 +15,7 @@ in javascript this is:
 'alert' is a javascript function ( we'll get to functions later ) that tells your web browser to display a popup window with some text you give it in quotes.
 
 ---
-##Javascript data types
+##[Javascript data types][1]
 
 ####Numbers
 Javascript can be used to do basic math operations with numbers.
@@ -33,3 +33,13 @@ So in 'Hello, world!', 'H' would be at zero. In fact, let's test that using the 
 
 `'Hello, world!'.indexOf('H');`
 
+###Booleans
+Either true or false
+
+###Arrays
+Are similar to stings in that they are a sequence but you can store anything you like.
+
+###Objects
+a collection of named information and functions that represent a single entity.
+
+[1]: http://www.cs.utah.edu/~germain/PPS/Topics/data_types.html ""
