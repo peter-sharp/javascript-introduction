@@ -38,21 +38,63 @@ Either true or false
 
 ###Arrays
 Are similar to stings in that they are a sequence but you can store anything you like.
+```
+[0,'hi',['yes even other arrays,', 1], 345 ]
+```
 
 ###Objects
 a collection of named information and functions that represent a single entity.
-
+```
+{
+ name: 'Dorethy',
+ age: 16,
+ home: false
+}
+```
 [1]: http://www.cs.utah.edu/~germain/PPS/Topics/data_types.html
+
+##variables
+are like little boxes that store information you put inside them
+
+```
+var briefcase = 'top secret information';
+```
 
 ##Control structures
 ####if statements
-take a true or truthy values {} 
-> greater than < less than === equal to
+Run code between { } braces if a true or truthy value is present in the ( ) braces
+
+```
+if( true ) {
+  console.log('this code will always run');
+}
+```
+
+commonly used with:
+ + > greater than
+ + < less than
+ + === equal to
+
+if you want something else to happen when if is not true use *else*
+
+```
+if( false ) {
+  console.log('this will never run');
+} else {
+  alert('But this will!!!');
+}
+```
 
 ####for loops
+run the code between the { } braces until the condition is met
+
 ```
-for(var i = 0; i < 100; i++){}
+for(var i = 0; i < 100; i++){
+ console.log( i + ' bottles of beer on the wall' );
+}
 ```
+
+A more advanced example:
 
 ```
 var nav_items = document.querySelectorAll('.reponav-item');
@@ -64,3 +106,20 @@ for( var i = 0; i < nav_items.length; i++){
 console.log( nav_item.innerHTML );
 }
 ```
+
+##functions
+Named ( or anonymous) blocks or code you can run at any time. They can take a list of values called parameters. Functions can optionally return a value as well.
+
+```
+function greet() {
+  alert('Hi there!');
+}
+```
+
+
+```
+function cubed( number ) {
+  return number * number * number;
+}
+```
+
