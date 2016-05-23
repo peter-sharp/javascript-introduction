@@ -3,7 +3,7 @@
 
 ---
 PHP is a programming language commonly used in web servers. 
-You can switch between php and html by using *<?php* and *?>* tags 
+You can switch between php and html by using `<?php` and `?>` tags 
 
 
 *For this next section we will be using the browser console press command (ctrl) + shift + j to show and hide it*
