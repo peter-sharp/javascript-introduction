@@ -40,9 +40,19 @@ Either true or false
 ###Arrays
 Are similar to stings in that they are a sequence but you can store anything you like.
 ```
-array(0,'hi',array('yes even other arrays,', 1), 345 )
+$random = array(0,'hi',array('yes even other arrays,', 1), 345 );
+
+echo $random[1]; // outputs 'hi'
 ```
 *[ and ] can also be used*
+
+Arrays can also be 'associative' containing key/value pairs:
+
+```
+$dorethy = array( 'name' => 'Dorethy', 'age' => 16, 'home' => FALSE );
+
+echo $dorethy['age']; // outputs 16
+```
 
 ###objects
 a collection of named information and functions that represent a single entity. In PHP these can only be created by 
@@ -51,7 +61,7 @@ classes which behave like object factories.
 class Person {
  $name = 'Dorethy';
  $age = 16;
- $home = false;
+ $home = FALSE;
 }
 
 $dorethy = new Person();
@@ -129,3 +139,4 @@ function cubed( number ) {
 }
 ```
 
+*This only scratches the surface of hwat you can do with PHP. If you see any functions you don't undestand, type php.net/< the name of the php function you want to search>.*
