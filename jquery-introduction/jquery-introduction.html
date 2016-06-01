@@ -1,0 +1,245 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>jQuery introduction</title>
+        <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+        <style type="text/css">
+            .callout.background-change {
+                background-color: #f00;
+            }
+            .dropdown-menu ul {
+                position: absolute;
+                margin-top: 8px;
+                padding: 8px;
+                z-index: 20;
+                box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1);
+            }
+            
+            .hide {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li class="menu-text">jQuery Agency</li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><a href="#">One</a></li>
+                    <li class="dropdown-menu">
+                        <a href="#">Two</a>
+                        <ul class="hide">
+                            <li><a href="#">item 1</a></li>
+                            <li><a href="#">item 2</a></li>
+                            <li><a href="#">item 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Three</a></li>
+                    <li><a href="#">Four</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="callout large primary">
+            <div class="row column text-center">
+                <h1>Our Blog</h1>
+            </div>
+        </div>
+        <div class="row" id="content">
+            <div class="medium-8 columns">
+                <div class="blog-post">
+                    <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                    <img class="thumbnail" src="http://placehold.it/850x350">
+                    <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+                        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                    <div class="callout">
+                        <ul class="menu simple">
+                            <li><a href="#">Author: Mike Mikers</a></li>
+                            <li><a href="#">Comments: 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                    <img class="thumbnail" src="http://placehold.it/850x350">
+                    <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+                        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                    <div class="callout">
+                        <ul class="menu simple">
+                            <li><a href="#">Author: Mike Mikers</a></li>
+                            <li><a href="#">Comments: 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                    <img class="thumbnail" src="http://placehold.it/850x350">
+                    <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+                        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                    <div class="callout">
+                        <ul class="menu simple">
+                            <li><a href="#">Author: Mike Mikers</a></li>
+                            <li><a href="#">Comments: 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                    <img class="thumbnail" src="http://placehold.it/850x350">
+                    <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
+                        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                    <div class="callout">
+                        <ul class="menu simple">
+                            <li><a href="#">Author: Mike Mikers</a></li>
+                            <li><a href="#">Comments: 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="medium-3 columns" data-sticky-container>
+                <div class="sticky" data-sticky data-anchor="content">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Skyler</a></li>
+                        <li><a href="#">Jesse</a></li>
+                        <li><a href="#">Mike</a></li>
+                        <li><a href="#">Holly</a></li>
+                    </ul>
+                    <h4 class="authors">Authors</h4>
+                    <ul>
+                        <li><a href="#">Skyler</a></li>
+                        <li><a href="#">Jesse</a></li>
+                        <li><a href="#">Mike</a></li>
+                        <li><a href="#">Holly</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row column">
+            <ul class="pagination" role="navigation" aria-label="Pagination">
+                <li class="disabled">Previous</li>
+                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                <li><a href="#" aria-label="Page 2">2</a></li>
+                <li><a href="#" aria-label="Page 3">3</a></li>
+                <li><a href="#" aria-label="Page 4">4</a></li>
+                <li class="ellipsis"></li>
+                <li><a href="#" aria-label="Page 12">12</a></li>
+                <li><a href="#" aria-label="Page 13">13</a></li>
+                <li><a href="#" aria-label="Next page">Next</a></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <script> 
+        /**
+         * jQuery is a javascript library that " makes things like HTML document traversal and manipulation,
+         * event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude
+         * of browsers. With a combination of versatility and extensibility, jQuery has changed the way 
+         * that millions of people write JavaScript."
+         * 
+         * To get started, we will take a look at jQuery selectors:
+         * 
+         * $('.top-bar')
+         * 
+         * jQuery selector work a lot like css selectors ( minus the: $('') ) they select
+         * the HTML element you want to make changes to.
+         * 
+         * to make things less boring write the following code below and see what happens:
+         * $('.top-bar').css('background-color', 'pink');
+         */
+        //-------------------- write your code below -----------------
+            
+            
+        // in Cloud 9 click 'Run' then click 'Preview > Live Preview File' File to see the results
+        /**
+         * So what does this do? let's break things down a bit:
+         * 
+         * "$('.top-bar')" tells jQuery to select the element with the class 'top-bar'
+         * 
+         * ".css('background-color', 'pink')"  tells jQuery to apply the inline style: 
+         * background-color: pink
+         * 
+         * Challenge: change the text color of all the elements with the class 'blog-post' to red
+         */
+        //-------------------- write your code below -----------------
+         
+        /**
+         * jQuery as well as supporting all CSS selectors jquery has some extra
+         * functions that help you select things you couldn't select with css
+         * try this:
+         * $('.authors').prev().css('font-size','70px');
+         * 
+         */
+        //-------------------- write your code below -----------------
+         
+        
+        // for more selectors go to https://api.jquery.com/category/traversing/
+        /**
+         * 
+         * Doing thing in jQuery that we could basically do with css isn't that
+         * exciting. In addition to changing styles jQuery has functions to manipulate
+         * html in other ways. try this below and see what happens:
+         * $('.authors').prev().html('<h1>A Title</h1>');
+         */
+        //-------------------- write your code below -----------------
+        
+        /**
+         * Bet you can see the potential with that. The last thing we are going to
+         * cover is jQuery events. Events happen when the user interacts with the 
+         * web browser such as clicking on a button. 
+         * in order to detect an event we need to attach an 'event listener'
+         * Let's attach one to the banner:
+         * $('.callout.large.primary').on('click', function(){
+         *   $(this).toggleClass('background-change');
+         * });
+         * 
+         * try it below and see what happens
+         */
+        //-------------------- write your code below -----------------
+        
+        
+        /**
+         * Pretty cool no?
+         * Let's break down the code:
+         * $('.callout.large.primary')  = tell jQuery to select the element with
+         * classes 'callout', 'large' and 'primary'
+         * 
+         * .on( 'click' ......          = tell jQuery to add an event listener 
+         * that listens for a click event on the selected element
+         * 
+         * .... ,function() { ... }     = we will cover javascript functions in more 
+         * depth when we look at javascript in a future lesson. For now, all you
+         * need to know is that the function tells jQuery what code you want to 
+         * run when the banner is clicked
+         * 
+         * ...
+         *      $(this).toggleClass('background-change');
+         * ...                          = '$(this)' is a shortcut for slecting the 
+         *  triggered element. '.toggleClass('background-change')' adds the 
+         * 'background-change' class if it doen't exist removes it if it does
+         * 
+         * Challenge: 
+         * using your jQuery knowledge create a drop-down menu. I've already added
+         * the css classes for you.
+         * 
+         */
+        //-------------------- write your code below -----------------
+        
+        
+        
+        
+        
+        
+        </script>
+    </body>
+
+</html>
