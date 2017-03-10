@@ -37,7 +37,7 @@ So in 'Hello, world!', 'H' would be at zero. In fact, let's test that using the 
 Either true or false
 
 ###Arrays
-Are similar to stings in that they are a sequence but you can store anything you like.
+Are similar to strings in that they are a sequence but you can store anything you like.
 ```
 [0,'hi',['yes even other arrays,', 1], 345 ]
 ```
